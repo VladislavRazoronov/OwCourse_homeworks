@@ -1,0 +1,28 @@
+div {
+background-color:rgb(53,106,181);
+height:300px;
+width:95%;
+margin: 2%;
+border-radius:5px;
+font-size: 50px;
+line-height:300px;
+color: white;
+text-align: center;
+}
+.SmallWidget {
+display: inline-block;
+background-color:rgb(34,69,118);
+height: 95%;
+width: 30%;
+margin-right: 10px;
+}
+#BigWidgets {
+    display:flex;
+    background-color:transparent;
+    line-height:600px
+    height: 600px;
+}
+#Contacts {
+    line-height:800px;
+    height: 800px;
+}

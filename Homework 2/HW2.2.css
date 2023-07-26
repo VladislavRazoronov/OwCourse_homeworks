@@ -1,0 +1,20 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4%;
+    margin-left: 1%;
+}
+div:hover {
+    background-color: grey;
+    border-radius: 50px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+section {
+display: flex;
+align-items: center;
+justify-content: space-around;
+}

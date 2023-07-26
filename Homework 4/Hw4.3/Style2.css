@@ -1,0 +1,43 @@
+body{
+    margin:0;
+}
+header{
+    height:20vh;
+    width:100vw;
+    background-color: #774848;
+}
+footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: #464646;
+}
+div{
+    height: 66vh;
+    width:34vw;
+}
+.magic_box{
+    display: flex;
+    width:100vw;
+}
+.container{
+    width:34vw;
+}
+
+#item1{
+    height: 33%;
+    background-color: dimgrey;
+}
+#item2{
+    height: 34%;
+    background-color: #a6a6a6;
+}
+#item3{
+    height: 33%;
+    background-color: #6c6c6c;
+}
+#column2{
+    background-color: #7c7b7b;
+}
+#column3{
+    background-color: lightgrey;
+}

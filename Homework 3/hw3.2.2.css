@@ -1,0 +1,26 @@
+header {
+    background-color: rgba(83, 81, 81, 0.10);
+    height:20vh;
+    display:flex;
+    justify-content: flex-end;
+}
+header p{
+    padding:2%;
+    font-size:1.4em;
+    margin-right:1%;
+    color:gray;
+}
+body{
+    margin:0;
+}
+p {
+    font-size:1.4em;
+    font-family: 'Jost', sans-serif;
+    padding:1%;
+}
+.title{
+    font-size:3em;
+}
+div {
+    margin-left:10%
+}

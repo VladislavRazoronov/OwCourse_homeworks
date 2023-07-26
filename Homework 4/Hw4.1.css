@@ -1,0 +1,65 @@
+div {
+    border: 2px solid lightgray;
+    width:80%;
+    text-align:center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.main{
+    height: 70vh;
+    margin-bottom: 3vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottom{
+    height: 20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom a{
+    margin-left:10px;
+    color:lightskyblue;
+}
+.title{
+    font-family: 'Lobster Two', cursive;
+    font-size:4em;
+    margin:-1%;
+}
+input{
+    margin:2px;
+    height:5vh;
+    width:50vw;
+    border:1px solid lightgray;
+    background-color: #f6f6f6;
+}
+.button{
+    background-color:lightblue;
+    border-radius:20px;
+    color:white;
+    font-size:1.6em;
+    margin-top:10px;
+}
+p {
+    font-size:1.4em;
+    font-family: Calibri, serif;
+}
+a {
+    font-size:1.4em;
+    text-decoration: none;
+    color:darkblue;
+}
+#or{
+    color: dimgrey;
+}
+#fb{
+    margin-bottom: 4vh;
+}
+img{
+    margin-bottom: -6px;
+}

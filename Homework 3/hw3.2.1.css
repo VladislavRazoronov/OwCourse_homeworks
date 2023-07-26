@@ -1,0 +1,44 @@
+header {
+    background-color: rgba(83, 81, 81, 0.10);
+    height:20vh;
+    display:flex;
+    justify-content: flex-end;
+}
+header p{
+    padding:2%;
+    font-size:1.4em;
+    margin-right:1%;
+    color:gray;
+}
+body{
+    margin:0;
+}
+p {
+    font-size:1.4em;
+    font-family: 'Jost', sans-serif;
+    padding:2%;
+}
+.title{
+    font-size:3em;
+}
+.text{
+    margin-left:10%;
+    margin-top:1%;
+}
+.main{
+    display:flex;
+    justify-content:space-between;
+}
+button{
+    width:40%;
+    border-radius:30px;
+    background-color:white;
+}
+#a {
+    background-color:lightblue;
+}
+.image {
+    width: 621px;
+    height: 621px;
+    background-image:url("resources/stock-vector-superhero-couple-man-and-woman-removebg-preview 1.png")
+}

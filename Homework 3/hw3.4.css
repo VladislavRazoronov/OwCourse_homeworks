@@ -1,0 +1,26 @@
+body {
+    margin:0;
+    display:flex;
+    flex-direction:column;
+}
+div {
+    height:50vh;
+    width:100%;
+    text-align:center;
+}
+.title{
+    font-size:3em;
+}
+p{
+    font-size:1.5em;
+    padding:2vw;
+}
+#Section1 {
+    background-color:lightpink;
+}
+#Section2 {
+    background-color:black;
+}
+#Section2 p,#Section2 .title {
+    color:white;
+}

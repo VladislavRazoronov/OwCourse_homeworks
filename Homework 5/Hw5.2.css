@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: space-around;
+}
+div{
+    height:70vh;
+    width:20vw;
+    border:4px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top:20vh;
+}
+.icon{
+    position: absolute;
+    border-radius: 60px;
+    height:70px;
+    width:70px;
+    margin-bottom: 90vh;
+    background-color: white;
+}
+
+#middle{
+    border-color: green;
+}
+#middle div{
+    border-color: green;
+}

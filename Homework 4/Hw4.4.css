@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Oswald, serif;
+    align-items: center;
+}
+.title{
+    font-size: 2em;
+}
+img{
+    width: 50%;
+    height: auto;
+    margin-left:5%;
+}
+.par1{
+    height: 80vh;
+    width: 90%;
+    display: flex;
+    margin-bottom: 10vh;
+}
+.par1 p{
+    padding: 40px;
+}
+li{
+    font-size: 1.6em;
+}
+#main{
+    margin:2%;
+    background-color: lightgray;
+}

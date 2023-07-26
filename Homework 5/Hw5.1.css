@@ -1,0 +1,16 @@
+.items1 ul>li:nth-child(even) {
+    color: pink;
+}
+.items2 ul>li:nth-child(even) {
+    font-size: 22px;
+}
+.items3 ul>li:nth-child(2n+4):after{
+    content: "!";
+}
+.items4 ul>li:last-child{
+    color: purple;
+}
+.items5 ul>li:first-letter{
+    font-size: 30px;
+    color: red;
+}
