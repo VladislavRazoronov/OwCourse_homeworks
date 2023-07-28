@@ -2,6 +2,7 @@ body{
     margin:0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 header{
     width: 100vw;
@@ -12,14 +13,17 @@ header{
     justify-content: center;
     align-items: center;
 }
-.column{
-
+.columns{
+    margin-top:10px;
+    display: grid;
+    height: 60vh;
+    width:60vw;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 10px;
 }
 .item{
-    height: 30vh;
-    width: 20vw;
     background-color: #603f3f;
-    margin:10px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -41,9 +45,10 @@ header{
         height:30vh;
         width: 100vw;
         background-color: darkred;
+        margin-left:-20px;
     }
-    .item{
-        height:20vh;
-        width: 28vw;
+    .columns{
+        width: 100vw;
+        height:50vh;
     }
 }
